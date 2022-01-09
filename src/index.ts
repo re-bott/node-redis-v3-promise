@@ -1,7 +1,6 @@
 import redis, { RedisError } from 'redis';
-import { Client, Parameters, ReturnType, PromiseCommands } from './types';
+import { Client, Parameters, ReturnType, PromiseCommands } from './custom_types';
 import commands from './commands';
-
 
 export function createClient(
     port: number,

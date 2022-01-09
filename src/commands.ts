@@ -1,4 +1,4 @@
-import { Commands } from './types';
+import { Commands } from './custom_types';
 
 export const commandsMap: Record<keyof Commands, undefined> = {
     object: undefined,
