@@ -10,6 +10,8 @@ This package is for those who want to use the node-redis (v3) versions, that sup
 npm install redis-v3-promise
 ```
 
+> **Supported for Node >= 12.x**
+
 ## Usage
 
 ### Example
