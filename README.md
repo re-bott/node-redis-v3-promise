@@ -1,6 +1,6 @@
 # Redis (v3) Promise Client
 
-This package is for those who want to use the node-redis (v3) versions, that supports createClient configuration options like: `prefix`, `rename_commands` from version 3, but also want the full promise and type definitions support for version 4.
+This package is for those who want to use the node-redis version 3.x, that supports createClient configuration options like: `prefix`, `rename_commands`, but also want the full promise and type definitions support of version 4.x.
 
 > This package is a wrapper built on top of [redis-v3][1] ([github][2]). Do checkout the docs for that package for details related to node-redis.
 
@@ -35,6 +35,10 @@ client
   .then(console.log)
   .catch(console.error);
 ```
+
+### Types Support
+
+![Type-Support.gif](docs/gifs/type_support.gif)
 
 > **Important**: `client.native` is the native client created by node-redis lib. For listening to errors or using all other functions provided by the native redis client (other than the redis commands) do use the `client.native` object.
 >
