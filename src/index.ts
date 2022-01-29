@@ -41,4 +41,4 @@ export function createClient(...args: any[]): Client {
     };
 }
 
-
+export const v3 = redis;
